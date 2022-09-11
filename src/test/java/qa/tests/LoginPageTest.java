@@ -12,9 +12,6 @@ public class LoginPageTest extends TestBase {
 	
 	LoginPage loginpage;
 	
-	
-	
-	
 	@BeforeMethod
 
 	public void setUp(){

@@ -8,7 +8,6 @@
           <include name="validateLoginTest"/>
           <include name="setUp"/>
           <include name="closeResources"/>
-          <include name="validateLogoTest"/>
         </methods>
       </class> <!-- qa.tests.LoginPageTest -->
     </classes>

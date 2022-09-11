@@ -13,22 +13,22 @@ public class LoginPage extends TestBase{
 
 // Element repository 
 	
-	@FindBy(id = "txtUsername")
+	@FindBy(name = "username")
 	WebElement usernametxt;
 	
 
-	@FindBy(id = "txtPassword")
+	@FindBy(name = "password")
 	WebElement passwordtxt;
 	
 
-	@FindBy(xpath = "//input[@value='LOGIN']")
+	@FindBy(xpath = "//button[@type='submit']")
 	WebElement lgnbtn;
 	
 
-	@FindBy(xpath = "//Div[@id='divLogo']/img")
+	@FindBy(xpath = "//div[@class='orangehrm-login-branding']/img")
 	WebElement logo;
 	
-	@FindBy(linkText = "Forgot your password?")
+	@FindBy(xpath = "//div[@class='orangehrm-login-forgot']/p")
 	WebElement forgotPasslink;
 	
 	
